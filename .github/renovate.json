@@ -1,0 +1,8 @@
+{
+  "extends": ["config:js-lib", "group:monorepos"],
+  "labels": ["A-dependencies"],
+  "unpublishSafe": true,
+  "semanticCommits": "auto",
+  "semanticCommitType": "chore",
+  "semanticCommitScope": null
+}
