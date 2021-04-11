@@ -41,7 +41,7 @@
     "@acot/utils": "0.0.10-canary.0",
     "@scaffdog/core": "1.0.1",
     "chalk": "^4.1.0",
-    "execa": "^4.1.0",
+    "execa": "^5.0.0",
     "meow": "^9.0.0",
     "update-notifier": "^5.1.0"
   },
