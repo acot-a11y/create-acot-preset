@@ -1,0 +1,58 @@
+{
+  "name": "create-acot-preset",
+  "version": "0.0.1",
+  "description": "Create acot preset project.",
+  "keywords": [
+    "acot"
+  ],
+  "homepage": "https://github.com/acot-a11y/create-acot-preset#readme",
+  "bugs": {
+    "url": "https://github.com/acot-a11y/create-acot-preset/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/acot-a11y/create-acot-preset.git"
+  },
+  "license": "MIT",
+  "author": "wadackel",
+  "main": "index.js",
+  "bin": {
+    "create-acot-preset": "lib/bin.js"
+  },
+  "files": [
+    "lib",
+    "template.md",
+    "!__tests__"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "./test/run.sh",
+    "format": "prettier --write .",
+    "release": "standard-version",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,css,md,yml,json}": [
+      "prettier --write"
+    ]
+  },
+  "dependencies": {
+    "@acot/logger": "0.0.10-canary.0",
+    "@acot/utils": "0.0.10-canary.0",
+    "@scaffdog/core": "1.0.1",
+    "chalk": "^4.1.0",
+    "execa": "^4.1.0",
+    "meow": "^9.0.0",
+    "update-notifier": "^5.1.0"
+  },
+  "devDependencies": {
+    "@acot/tsconfig": "^0.1.0",
+    "husky": "^6.0.0",
+    "lint-staged": "^10.5.4",
+    "prettier": "^2.2.1",
+    "prettier-plugin-packagejson": "^2.2.10",
+    "standard-version": "^9.2.0",
+    "type-fest": "^0.21.3",
+    "typescript": "^4.2.3"
+  }
+}
