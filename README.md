@@ -60,7 +60,7 @@ _`npm init <initializer>` is available in npm 6+_
 ### Yarn
 
 ```bash
-$ npx create-acot-preset foo
+$ yarn create acot-preset foo
 ```
 
 _`yarn create <starter-kit-package>` is available in Yarn 0.25+_
