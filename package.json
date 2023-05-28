@@ -48,7 +48,7 @@
     "@acot/tsconfig": "0.1.0",
     "husky": "6.0.0",
     "lint-staged": "10.5.4",
-    "prettier": "2.2.1",
+    "prettier": "2.8.8",
     "prettier-plugin-packagejson": "2.2.10",
     "standard-version": "9.2.0",
     "type-fest": "1.0.1",
