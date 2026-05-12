@@ -36,8 +36,8 @@
     ]
   },
   "dependencies": {
-    "@acot/logger": "0.0.10",
-    "@acot/utils": "0.0.10",
+    "@acot/logger": "0.0.19",
+    "@acot/utils": "0.0.19",
     "@scaffdog/core": "1.0.1",
     "chalk": "^4.1.0",
     "execa": "^5.0.0",
